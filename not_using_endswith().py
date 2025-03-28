@@ -8,3 +8,7 @@ suffix = input("Enter the suffix to check: ")
 suffix_length = len(suffix)
 
 # Compare the end part of the text with the suffix and print the result
+if user_input[-suffix_length:] == suffix:
+    print("True")
+else:
+    print("False")
