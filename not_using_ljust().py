@@ -11,3 +11,4 @@ if add_spaces > 0:
     user_input += " " * add_spaces
 
 # Print the string with added spaces
+print(user_input)
