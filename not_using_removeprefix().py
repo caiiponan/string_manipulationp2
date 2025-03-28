@@ -5,5 +5,6 @@ prefix = input("Enter the prefix to be removed: ")
 # Remove given prefix without using removeprefix() method
 if user_input.startswith(prefix):
     user_input = user_input[len(prefix):]
-    
+
 # Print the string without the prefix 
+print(user_input)
