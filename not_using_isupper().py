@@ -11,3 +11,7 @@ for char in user_input:
         break
 
 # Print result if all uppercase is true or false.
+if all_uppercase:
+    print("All characters are uppercase.")
+else:
+    print("Not all characters are uppercase.")
