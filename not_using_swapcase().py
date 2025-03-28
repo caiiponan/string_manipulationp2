@@ -18,3 +18,4 @@ for char in user_input:
     else:
         result += char
 # Print the converted string
+print(result)
