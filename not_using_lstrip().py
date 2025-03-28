@@ -10,3 +10,4 @@ while index < len(user_input) and user_input[index] == " ":
 user_input = user_input[index:]
 
 # Print the string without leading whitespaces
+print(user_input)
