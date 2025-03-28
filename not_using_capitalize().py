@@ -19,3 +19,4 @@ for char in user_input[1:]:
         result += char
 
 # Print the result
+print(result)
