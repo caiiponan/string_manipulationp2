@@ -17,4 +17,6 @@ for char in user_input:
         if make_capital and 'a' <= char <= 'z':
             result += chr(ord(char) - 32)
 # Make the rest of the word lowercase
+        elif not make_capital and 'A' <= char <= 'Z':
+            result += chr(ord(char) + 32)
 # Print title-cased result
