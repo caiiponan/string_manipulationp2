@@ -5,4 +5,6 @@ user_input = input("Enter a string: ")
 suffix = input("Enter the suffix to check: ")
 
 # Get the length of the suffix
+suffix_length = len(suffix)
+
 # Compare the end part of the text with the suffix and print the result
