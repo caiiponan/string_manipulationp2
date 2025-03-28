@@ -1,7 +1,8 @@
 # Prompt user for input
+user_input = input("Enter a string: ")
 # Initialize the result string as an empty string
 # Flag to decide when to capitalize
 # Check if every next character is uppercase
 # Make it uppercase
- # Make it lowercase
+# Make it lowercase
 # Print title-cased result
