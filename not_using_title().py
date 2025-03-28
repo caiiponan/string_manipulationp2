@@ -12,7 +12,9 @@ for char in user_input:
     if char == ' ':
         result += char
         make_capital = True
-        
 # Make it uppercase
-# Make it lowercase
+    else:
+        if make_capital and 'a' <= char <= 'z':
+            result += chr(ord(char) - 32)
+# Make the rest of the word lowercase
 # Print title-cased result
