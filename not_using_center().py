@@ -12,3 +12,4 @@ if spaces > 0:
     user_input = " " * left_space + user_input + " " * right_space
 
 # Print the string with added spaces
+print(user_input)
