@@ -12,4 +12,10 @@ if len(user_input) > 0:
     result += first_letter
 
 # Convert the rest to lowercase
+for char in user_input[1:]:
+    if 'A' <= char <= 'Z':
+        result += chr(ord(char) + 32)
+    else:
+        result += char
+
 # Print the result
